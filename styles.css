@@ -1,0 +1,141 @@
+@font-face {
+    font-family: 'open sans';
+    src: url("font/OpenSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'passion one';
+    src: url("font/PassionOne-Regular.otf");
+}
+
+html, body {
+    height: 100%
+}
+
+body {
+    background: url(images/body-bg.gif) 50% 0;
+    font: 12px/18px arial;
+    color: #717171;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+main {
+    background: url(images/main-bg.jpg) no-repeat center 0px;
+    min-height: 100%;
+}
+
+header {
+    position: relative;
+    width: 950px;
+    margin: 0px auto;
+    padding: 80px 0px 0px 0px;
+    background: url(images/slide-1.jpg) no-repeat center 80px;
+    z-index: 2;
+}
+
+.inner {
+    background: url(images/header-bg.png);
+    padding: 26px 40px 25px 40px;
+    position: relative;
+    z-index: 2;
+}
+
+.logo {
+    display: inline-block;
+    padding: 0;
+}
+
+.logo a {
+    position: relative;
+    background: url(images/logo.png) no-repeat 0 0;
+    height: 58px;
+    width: 187px;
+    display: block;
+    overflow: hidden;
+    text-indent: -99em;
+}
+
+ul {
+    margin: 0;
+    padding: 0px;
+    list-style: none;
+}
+
+nav {
+    float: right;
+    padding: 12px 0 0 0;
+}
+
+.menu ul {
+    position: absolute;
+    top: -999em;
+    left: 0;
+    display: none;
+    width: 185px;
+    min-height: 28px;
+}
+
+.menu li {
+    position: relative;
+    float: left;
+    margin: 0px 28px;
+}
+
+.menu li a {
+    text-decoration: none;
+    display: block;
+    font-family: 'open sans';
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 10px 0 0 0;
+}
+
+.menu li:hover a, .menu li.current a {
+    color: #afaa9b;
+    background: url(images/nav-active.png) no-repeat center 0px;
+}
+
+.slider {
+    position: relative;
+    z-index: 1;
+    height: 402px;
+}
+
+.mp-slider {
+    position: absolute;
+    top: -109px;
+    left: 0px;
+    right: 0px;
+    bottom: 511px;
+}
+
+.mp-prev, .mp-next {
+    position: absolute;
+    width: 31px;
+    height: 402px;
+    bottom: 0;
+    z-index: 3;
+}
+
+.mp-prev {
+    left: 0px;
+    background: url(images/slider-prev.png) no-repeat 0 0;
+}
+
+.mp-next {
+    right: 0px;
+    background: url(images/slider-next.png) no-repeat 0 0;
+}
+
+.mp-prev:hover{
+    background: url(images/slider-prev.png) no-repeat right 0;
+
+}
+.mp-next:hover{
+    background: url(images/slider-next.png) no-repeat right 0;
+
+}
