@@ -213,43 +213,42 @@ dl, dd, dt, blockquote {
     font-weight: normal;
 }
 
-.quote:before{ 
+.quote:before {
     display: inline-block;
     background: url(images/quote-before.png) no-repeat 0 0;
-    content:" ";
+    content: " ";
     width: 14px;
     height: 13px;
     margin: 0px 5px 0 0;
 }
 
-.quote:after{ 
+.quote:after {
     display: inline-block;
     background: url(images/quote-after.png) no-repeat 0 0;
-    content:" ";
+    content: " ";
     width: 14px;
     height: 13px;
     margin: 0px 0 0 6px;
 }
 
-.author{
-    display:"inline-block";
+.author {
+    display: "inline-block";
     font-family: 'open sans';
     color: #ffffff;
     font-size: 14px;
     line-height: 20px;
     font-weight: bold;
-
 }
 
-.author i{font-weight: normal;}
+.author i {
+    font-weight: normal;
+}
 
-.banner-img{
+.banner-img {
     position: absolute;
     right: 0px;
     bottom: 0px;
 }
-
-
 
 a {
     color: #ffffff;
@@ -320,6 +319,16 @@ h6 {
     line-height: 24px;
 }
 
+.upper h1 {
+    font-size: 46px;
+    color: red;
+}
+
+.upper-para {
+    line-height: 24px;
+    color: red;
+}
+
 /***** INDENT*******/
 
 .img-indent-bot {
@@ -330,4 +339,54 @@ h6 {
     padding: 0 0 32px 0;
 }
 
-.indent-right{margin-right: 90px;}
+.indent-right {
+    margin-right: 90px;
+}
+
+/* *** RIGHT COLUMN ***** */
+
+.outer {
+    width: 23%;
+    float: right;
+}
+
+.border {
+    border-bottom: 1px solid gray;
+}
+
+.read-more {
+    text-align: right;
+}
+
+.read-more p {
+    color: white;
+    padding-right: 9px;
+    background: url(images/link-marker.gif) no-repeat right center;
+}
+
+.read-more p:hover {
+    text-decoration: none;
+}
+
+.lower h1 {
+    
+    font-size: 32px;
+    color: white;
+
+}
+
+.links a {
+    
+    text-decoration: none;
+    font-size: 14px;
+    color: gray;
+    padding-left: 18px;
+    background: url(images/link-marker.gif) no-repeat left center;
+
+}
+.links a:hover{color: white;}
+
+.lower .border { border-bottom: 1px solid gray;}
+
+
+/* FOOTER */
