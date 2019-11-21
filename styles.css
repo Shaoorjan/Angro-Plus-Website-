@@ -369,24 +369,112 @@ h6 {
 }
 
 .lower h1 {
-    
     font-size: 32px;
     color: white;
-
 }
 
 .links a {
-    
     text-decoration: none;
     font-size: 14px;
     color: gray;
     padding-left: 18px;
     background: url(images/link-marker.gif) no-repeat left center;
-
 }
-.links a:hover{color: white;}
 
-.lower .border { border-bottom: 1px solid gray;}
+.links a:hover {
+    color: white;
+}
 
+.lower .border {
+    border-bottom: 1px solid gray;
+}
 
 /* FOOTER */
+
+.footer-box {
+    position: relative;
+    /* overflow: hidden; */
+    margin-left: auto;
+    margin-right: auto;
+    width: 950px;
+    border-top: 2px solid gray;
+    min-height: 100%;
+    padding-top: 30px;
+    ;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    background: url(images/body-bg.gif);
+}
+
+.logo-footer {
+    position: absolute;
+    display: inline-block;
+    width: 33%;
+    top: 50%;
+    margin-left: 30px;
+}
+
+.text-logo {
+    font-family: 'PassionOne';
+    font-size: 22px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.logo-footer .top {
+    margin: 0px;
+    margin-top: 30px;
+    padding: 0px;
+}
+
+.we-serve {
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer-right {
+    display: inline-block;
+    width: 66%;
+    left: 33%;
+    position: absolute;
+    padding-bottom: 40px;
+    /* border:1px solid white; */
+}
+
+.archive {
+    width: 24%;
+    display: inline-block;
+}
+
+.archive h1 {
+    font-family: 'PassionOne';
+    font-size: 24px;
+    color: red;
+    margin-bottom: 0px;
+}
+
+.archive p {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    background: url(images/list-1-marker.gif) no-repeat left center;
+    padding-left: 8px;
+}
+
+.social-logo {
+    /* position: absolute; */
+    right: 0px;
+    width: 24%;
+    display: inline-block;
+    text-align: right;
+    align-content: right;
+}
+
+.social-logo-img {
+    display: block;
+    background: aliceblue;
+    margin: 2px;
+    /* margin-left: 80px; */
+    margin-top: 10px;
+    border: .5px solid black;
+    border-radius: 5px;
+}
